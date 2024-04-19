@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy-reward1": "hardhat run scripts/deploy-reward1.ts",
+    "deploy-reward2": "hardhat run scripts/deploy-reward2.ts",
+    "deploy-token": "hardhat run scripts/deploy-token.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
